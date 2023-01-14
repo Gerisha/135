@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 df=pd.read_csv("final.csv")
 
 #row_num,name,start_name,distance,mass,radius,gravity
-n=df["name"].to_list()
-m=df["mass"].to_list()
-r=df["radius"].to_list()
-d=df["distance"].to_list()
-g=df["gravity"].to_list()
+n=df["star_name"].to_list()
+m=df["Mass"].to_list()
+r=df["Radius"].to_list()
+d=df["Distance"].to_list()
+g=df["Gravity"].to_list()
 print(df.head())
 print(n[0:9])
 plt.figure(figsize=(10,5))
