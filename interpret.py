@@ -1,7 +1,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 # %matplotlib inline
-df=pd.read_csv("final.csv")
+df=pd.read_csv("final1.csv")
 
 #row_num,name,start_name,distance,mass,radius,gravity
 n=df["star_name"].to_list()
